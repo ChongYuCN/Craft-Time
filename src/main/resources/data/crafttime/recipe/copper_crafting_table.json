@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:copper_ingot"
+    },
+    "B": {
+      "item": "minecraft:leather"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "AB",
+    "XY"
+  ],
+  "result": {
+    "count": 1,
+    "id": "crafttime:copper_crafting_table"
+  }
+}

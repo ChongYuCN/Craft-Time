@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "crafttime:block/flint_crafting_table" }
+    }
+}

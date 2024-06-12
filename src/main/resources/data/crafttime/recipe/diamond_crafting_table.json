@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:leather"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "pattern": [
+    "AB",
+    "XY"
+  ],
+  "result": {
+    "count": 1,
+    "id": "crafttime:diamond_crafting_table"
+  }
+}

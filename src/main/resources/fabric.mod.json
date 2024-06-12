@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "crafttime",
+  "version": "${version}",
+  "name": "CraftTime",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/ChongYuCN/CraftTime"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chongyu.crafttime.CraftTime"
+    ]
+  },
+  "mixins": [
+    "crafttime.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": ">=1.21-beta.4"
+  },
+  "accessWidener": "crafttime.accessWidener"
+}
