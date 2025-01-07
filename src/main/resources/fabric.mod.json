@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "crafttime",
+  "version": "${version}",
+  "name": "CraftTime",
+  "description": "合成物品需要消耗时间，和不同等级的工作台和熔炉。 Synthesizing items requires time and different levels of workbenches and furnaces",
+  "authors": [
+    "ChongYu"
+  ],
+  "contact": {
+    "repo": "https://github.com/16348/CraftTime"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chongyu.crafttime.CraftTime"
+    ]
+  },
+  "mixins": [
+    "crafttime.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.20",
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  },
+  "accessWidener": "crafttime.accessWidener"
+}

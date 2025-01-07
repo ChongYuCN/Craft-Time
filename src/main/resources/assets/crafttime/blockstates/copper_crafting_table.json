@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "crafttime:block/copper_crafting_table" }
+    }
+}

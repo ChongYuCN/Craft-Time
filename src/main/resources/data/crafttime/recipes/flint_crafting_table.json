@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:flint"
+    },
+    "B": {
+      "item": "minecraft:leather"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    "AB",
+    "XY"
+  ],
+  "result": {
+    "item": "crafttime:flint_crafting_table"
+  }
+}
