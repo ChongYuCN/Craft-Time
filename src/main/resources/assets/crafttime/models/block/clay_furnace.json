@@ -1,8 +1,0 @@
-{
-    "parent": "block/orientable",
-    "textures": {
-        "top": "crafttime:block/furnace/clay/top",
-        "front": "crafttime:block/furnace/clay/front",
-        "side": "crafttime:block/furnace/clay/side"
-    }
-}
