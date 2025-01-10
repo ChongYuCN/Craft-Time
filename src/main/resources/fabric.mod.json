@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "crafttime",
+  "version": "${version}",
+  "name": "CraftTime",
+  "description": "Craft items require different levels of cfafttable and consume time",
+  "authors": [
+    "ChongYu"
+  ],
+  "contact": {
+    "repo": "https://github.com/16348/CraftTime"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.chongyu.crafttime.CraftTimeClient"
+    ],
+    "main": [
+      "com.chongyu.crafttime.CraftTime"
+    ]
+  },
+  "mixins": [
+    "crafttime.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.20",
+    "fabric": "*",
+    "minecraft": ">=1.19.2"
+  },
+  "accessWidener": "crafttime.accessWidener"
+}

@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "crafttime:block/netherite_crafting_table" }
+    }
+}

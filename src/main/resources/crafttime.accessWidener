@@ -1,0 +1,9 @@
+accessWidener v1 named
+#accessible field net/minecraft/screen/CraftingScreenHandler input Lnet/minecraft/inventory/CraftingInventory;
+#accessible field net/minecraft/screen/CraftingScreenHandler result Lnet/minecraft/inventory/CraftingResultInventory;
+
+#accessible method net/minecraft/block/entity/AbstractFurnaceBlockEntity writeNbt (Lnet/minecraft/nbt/NbtCompound;)V
+accessible method net/minecraft/screen/CraftingScreenHandler updateResult (Lnet/minecraft/screen/ScreenHandler;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/inventory/CraftingInventory;Lnet/minecraft/inventory/CraftingResultInventory;)V
+#accessible method net/minecraft/block/entity/AbstractFurnaceBlockEntity getCookTime (Lnet/minecraft/world/World;Lnet/minecraft/block/entity/AbstractFurnaceBlockEntity;)I
+#accessible method net/minecraft/block/entity/AbstractFurnaceBlockEntity getFuelTime (Lnet/minecraft/item/ItemStack;)I
+
